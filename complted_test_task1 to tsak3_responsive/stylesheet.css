@@ -1,0 +1,178 @@
+
+*{  font-family: verdana;}
+body, html{width:100%;height:100%;}
+#main_panel{width:90%;padding-top: 2.5%;margin:0 auto;}
+.tooltip{width:18%;height:2.5%;color:white;font-weight:bolder;font-size:0.9vw;position: relative;letter-spacing: .5px;}
+.tooltip_main{width:87%;margin:0 auto;}
+.tooltip:after{
+content:"FOR MARKETING USE";
+width:82.5%;
+height:0;
+text-indent:5px;
+position: absolute;
+border-bottom:20px solid #666666;
+border-right:20px solid transparent;
+}
+.left{float:left;}
+.right{float:right;}
+.menu{display:none;padding:10px;margin: auto;}
+
+#sub_panel{top:2px;    width:86.822222%;position: relative;    border:2px solid #666666;       margin:auto; }
+#image_holder{background:url(banner.png) no-repeat;padding:0.125em;background-size: 100%;border-bottom: 2px solid #c6c6c6;}
+.singleletter{color:#fff;font-weight:bold; margin-left: 12%;font-size:4.75vw;}
+.multiletter{color:#CDCDCD;position:relative;font-size:4.75vw;font-weight:bold;}
+.head_letters{font-size:4.75vw;color:#0D72A8;margin-left:21.8%;letter-spacing:-3px;}
+.single_line{width:37%;margin-left:21%;margin-top:1%;font-size:1vw;padding:2%;}
+.bullets{    float:left;width:0.7vw;}
+.greybox{    background-color:#D9DADE;float:right;width:9vw;height:9vw;border-radius:5px;}
+
+.list{    float:left;margin-left:12px;font-weight:bold;font-size:1.2vw;}
+.head1{ background: url(header.jpg)right top no-repeat ; height:110px; background-attachment: scroll;}
+.head1 a img{position:absolute;margin-top:2.2%;margin-left:3.4%;overflow: hidden;}
+.head2{background: url(grey_line.png) repeat-x,url(black_line.png)left bottom repeat-x;overflow: hidden;}
+.left_content{ float:left;  padding:2%; font-size:1.1vw;}
+.right_content{float:right;width:22.5%;border:1px solid #A2A2A2;border-radius:2px;margin-top: 0.7%;margin-right:1%;overflow: hidden;}
+.search{width:85%;border: none;float:left; padding:5%;font-size:1vw;}
+.button{padding:5%; background: url(search.png)50% 50% no-repeat ;    border:none;border-left:1px solid #A2A2A2;   border-radius:2px;  
+ }
+
+.border{background:url(black_line.png)left bottom repeat-x;height:0.8%;}
+#contentbar{  overflow:hidden;position: relative;display:table;margin-top:3%;}
+
+.left-sidebar{padding-top:0.9%; border-top: 2px solid #ACACAC; border-right: 2px solid #ACACAC; width:19.5%; vertical-align: top;  display:table-cell;}
+.right-sidebar{width:75%; padding-left: 4px;  display:table-cell;vertical-align: top; }
+
+.left-sidebar2{    padding-top:1%;border-left: 2px solid #ACACAC;    border-top:2px solid #ACACAC;  width:19.5; margin-top:3%;
+    bottom:0;    top:0;   position: absolute;  float:right; }
+
+.element_lower_border{   padding: 4% 12% 12% 5%;border-bottom:2px solid #acacac; } 
+
+.content_header{padding-left:.3%;color:#666666;font-weight:bold;}
+.switch_button{width:34px;border-radius:2px;border:1px solid #4D90FE; margin:0 auto; overflow: hidden; padding: 8px 10px; font-size:10px;
+    font-weight:bolder;   
+}
+.button2{border-radius:2px; border:0px solid #ffffff; background-color:#fff; margin:auto; font-size: 1vw;display: block}
+
+#content_panel{width:100%;border-top:2px solid #C6C6C6;padding-top:1px;padding-bottom:1px;overflow: hidden;}
+.content_panel2{border-top:2px solid #A2A2A2;padding:3%;margin:0 auto;}
+.leftbox{margin-top:0.1%; float:left;    width:47%;  padding:1.4% 1.2% 1% 1.2%;}
+.rightbox{  margin-top:0.1%;float:left;border-left:2px solid #A2A2A2;width:47%;padding:1.4% 1.2% 1% 1.2%;}
+.dwnld{float:left;padding-top:2%;padding-left:3%;color:#4f4f4f;font-size:1.4vw;}
+.leftbox_left{width:58%;float:left;}
+.leftbox_left h3{padding-left:1%;margin-top:20%;color:#424242;font-size:1.2vw;}
+.leftbox_left p{padding-left:1%;color:#555555;font-size:1vw;}
+.rightbox_left{width:58%;float:left;}
+.rightbox_left h3{padding-left:1%;margin-top:20%;color:#424242;font-size:1.2vw;}
+.rightbox_left p{padding-left:1%;color:#555555;font-size:1vw;}
+
+#footer{padding-top: 1.5%;       font-size: 1vw;overflow: hidden;}
+.footer_text{text-decoration:none;color:#4Ba2f2}
+#footer p{line-height:0}
+
+
+
+
+
+
+
+/* Smartphones (landscape) ----------- */
+
+
+/* iPads (portrait and landscape) ----------- */
+
+
+/* iPads (landscape) ----------- */
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) and (orientation : portrait) {
+
+
+.menu{display:block;text-align: center;border:1px solid #000;border-radius: 5px;margin: 5px;background-color: #0D72A8;}
+ #main_panel{padding: 2px;width:100%;}
+.tooltip{height:2%;}
+.tooltip_main{width:90%;margin:0 auto;}
+.tooltip{margin-left:1.5%;width:90%;font-size:2vw;}
+.tooltip:after{width:40%; text-align: center;}
+
+.head1 img{margin:0 auto;display:block;}
+
+.head2{overflow: hidden;text-align: center;padding: 1%;}
+.button{padding:1.5% 1.5% 1.5% 4%; background: url(search.png)100% 50% no-repeat ;    border:none;border-left:1px solid #A2A2A2;   border-radius:2px;  
+ }
+
+.left_content{font-size:1.8vw;width:100%;margin: 0 auto;padding:0.2%;overflow: hidden;}
+.right_content{width:80%;margin: auto;float:none;}
+.search{width:85%;border: none;float:left; padding:2%;}
+
+.greybox{width:14.5vw;height:14.5vw;}
+#image_holder{}
+.singleletter{font-size:7vw;margin-left:10% }
+.multiletter{font-size:7vw;}
+.head_letters{font-size:7vw;}
+.single_line{font-size:1.7vw;width:96%;margin: 10.5% 0% 0% 0%;background: #444;color:#f4f4f4;border-radius:2%;}
+.left-sidebar{display:none;width:100%;height:auto;position:static;padding: 0;border: none;margin: 0}
+
+.switch_button{display:none;}
+.content_header{margin-top:0;width:100%;text-align: center;}
+.right-sidebar{width:100%;padding:0;display:block;}
+#content_panel{border:none;padding-top:1px;padding-bottom:1px;overflow: hidden;}
+.content_panel2{border-top:2px solid #A2A2A2;}
+.leftbox{ width:50%;  padding:5px;border-top:2px solid #A2A2A2;float:left;overflow: hidden;box-sizing: border-box;}
+.rightbox{  width:50%;padding:5px;border:none;border-top:2px solid #A2A2A2;float:left;overflow: hidden;box-sizing: border-box;}
+.leftbox_left h3{font-size:2.0vw;}
+.leftbox_left p{font-size:1.4vw;}
+.rightbox_left{float:left;}
+.rightbox_left h3{font-size:2.0vw;}
+.rightbox_left p{font-size:1.4vw;}
+#footer{width:100%;  font-size: 2vw;}
+.button2{  font-size: 2vw;}
+ }
+
+/* Desktops and laptops ----------- */
+
+
+@media screen  and (max-width: 480px){
+    .menu{display:block;text-align: center;border:1px solid #000;border-radius: 5px;margin: 5px;background-color: #0D72A8;}
+    #main_panel{padding: 2px;width:100%;}
+.greybox{width:25vw;height:25vw;}
+.tooltip_main{width:90%;margin:0 auto;}
+.tooltip{margin-left:1.5%;width:90%;font-size:2.6vw;}
+.tooltip:after{width:55%; text-align: center;}
+.head1{   background-image: none; background:#0D72A8}
+.head1 img{margin:0 auto;display:block;}
+.button{padding:1.5% 1.5% 1.5% 4%; background: url(search.png)100% 50% no-repeat ;    border:none;border-left:1px solid #A2A2A2;   border-radius:2px;  
+ }
+
+.head2{overflow: hidden;text-align: center;padding:1%;}
+.button2{  font-size: 3vw;}
+.dwnld{padding-top:6%;font-size:3.5vw;}
+.left_content{display:none;}
+.right_content{width:100%;margin: auto;padding:1%;}
+.search{width:83%;border: none;float:left; padding:2%;}
+
+
+
+
+.singleletter{font-size:7vw;margin-left:10% }
+.multiletter{font-size:7vw;}
+.head_letters{font-size:7.5vw;}
+.single_line{font-size:3vw;width:95%;margin:10% auto;}
+.left-sidebar{display:none;width:100%;height:auto;position:static;padding: 0;border: none;margin: 0}
+
+.switch_button{display:none;}
+.content_header{margin-top:0;width:100%;text-align: center;}
+.right-sidebar{width:100%;padding:0;display:block;}
+#content_panel{border:none;padding-top:1px;padding-bottom:1px;overflow: hidden;}
+.content_panel2{border-top:2px solid #A2A2A2;margin:auto;}
+.leftbox{margin-top:1px; width:100%;  padding:5px;border-top:2px solid #A2A2A2;overflow: hidden;box-sizing: border-box;}
+.rightbox{  width:100%;padding:5px;border:none;border-top:2px solid #A2A2A2;float:left;overflow: hidden;box-sizing: border-box;}
+.leftbox_left h3{font-size:2.8vw;}
+.leftbox_left p{font-size:2.2vw;}
+.rightbox_left{float:left;}
+.rightbox_left h3{font-size:2.8vw;}
+.rightbox_left p{font-size:2.2vw;}
+#footer{width:100%;  font-size: 2vw;padding-top: 2%; }
+
+
+}
